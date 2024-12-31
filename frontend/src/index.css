@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Welcome Screen */
+.welcome-container {
+  @apply max-w-md mx-auto mt-20 text-center space-y-8;
+}
+
+.welcome-title {
+  @apply text-4xl font-bold mb-8 text-white;
+}
+
+.portal-button {
+  @apply w-full p-4 text-white rounded-lg text-lg font-medium mb-4;
+}
+
+.staff-button {
+  @apply bg-blue-500 hover:bg-blue-600;
+}
+
+.manager-button {
+  @apply bg-green-500 hover:bg-green-600;
+}
+
+/* Login Screen */
+.login-container {
+  @apply max-w-md mx-auto mt-8 p-4;
+}
+
+.login-box {
+  @apply bg-gray-800 rounded-lg shadow-md p-6;
+}
+
+.login-title {
+  @apply text-2xl font-bold mb-6 text-white;
+}
+
+.form-group {
+  @apply flex flex-col space-y-4 mb-6;
+}
+
+.form-input {
+  @apply w-full p-4 bg-gray-700 border border-gray-600 rounded text-white text-lg;
+}
+
+.form-button {
+  @apply w-full p-4 bg-blue-500 hover:bg-blue-600 text-white rounded text-lg font-medium;
+}
+.login-title {
+  @apply text-2xl font-bold mb-6 text-white;
+}
+
+.login-input {
+  @apply w-full p-4 mb-4 bg-gray-700 border border-gray-600 rounded text-white;
+}
+
+.login-button {
+  @apply w-full p-4 mb-4 bg-blue-500 hover:bg-blue-600 text-white rounded;
+}
+
+.back-button {
+  @apply w-full p-4 border border-gray-600 rounded text-white hover:bg-gray-700;
+}
+
+/* Portal Layout */
+.portal-layout {
+  @apply max-w-4xl mx-auto p-6;
+}
+
+.greeting {
+  @apply text-3xl font-bold mb-8 text-white;
+}
+
+.points-display {
+  @apply text-2xl mb-6 text-green-400;
+}
+
+/* Section Containers */
+.section-box {
+  @apply bg-gray-800 rounded-lg shadow-md p-6 mb-6;
+}
+
+.section-title {
+  @apply text-xl font-bold mb-4 text-white;
+}
+
+/* Form Controls */
+.select-input {
+  @apply w-full p-4 mb-4 bg-gray-700 border border-gray-600 rounded text-white text-lg;
+}
+
+.action-button {
+  @apply w-full p-4 bg-blue-500 hover:bg-blue-600 text-white rounded text-lg mt-4;
+}
+
+/* Transaction History */
+.transaction-table {
+  @apply w-full;
+}
+
+.transaction-table th {
+  @apply text-left p-3 border-b border-gray-700;
+}
+
+.transaction-table td {
+  @apply p-3 border-b border-gray-700;
+}
+
+.transaction-positive {
+  @apply text-green-400;
+}
+
+.transaction-negative {
+  @apply text-red-400;
+}
+
+/* Request Cards */
+.request-card {
+  @apply bg-gray-700 rounded-lg p-4 mb-4;
+}
+
+.request-header {
+  @apply flex justify-between items-center mb-2;
+}
+
+.request-actions {
+  @apply flex gap-4 mt-4;
+}
+
+.approve-button {
+  @apply flex-1 p-3 bg-green-500 hover:bg-green-600 text-white rounded;
+}
+
+.deny-button {
+  @apply flex-1 p-3 bg-red-500 hover:bg-red-600 text-white rounded;
+}
+
+/* Spacing Utilities */
+.space-between {
+  @apply flex justify-between items-center;
+}
+
+.space-y {
+  @apply space-y-4;
+}
+/* Rest of your styles */
+
+/* Base Styles */
+body {
+  @apply bg-gray-900 text-white;
+}
+
+/* Login Form */
+.login-input {
+  @apply w-full p-4 mb-4 border rounded bg-gray-800 text-white border-gray-700;
+}
+
+.login-button {
+  @apply w-full p-4 mb-4 bg-blue-500 text-white rounded hover:bg-blue-600;
+}
+
+/* Containers */
+.portal-container {
+  @apply max-w-4xl mx-auto p-4;
+}
+
+.section-container {
+  @apply bg-gray-800 rounded-lg shadow-md p-6 mb-6;
+}
+
+/* Form Elements */
+.select-input {
+  @apply w-full p-4 mb-4 bg-gray-800 border border-gray-700 rounded text-white;
+}
+
+.submit-button {
+  @apply w-full p-4 bg-blue-500 text-white rounded hover:bg-blue-600;
+}
+
+/* Points Display */
+.points-display {
+  @apply text-4xl font-bold text-green-400 mb-6;
+}
+
+/* Tables */
+.data-table {
+  @apply w-full border-collapse;
+}
+
+.data-table th {
+  @apply p-3 text-left border-b border-gray-700 text-gray-400;
+}
+
+.data-table td {
+  @apply p-3 border-b border-gray-700;
+}
+
+/* Transaction Colors */
+.earned {
+  @apply text-green-400;
+}
+
+.spent {
+  @apply text-red-400;
+}
+
+/* Pending Request Card */
+.request-card {
+  @apply border border-gray-700 rounded-lg p-4 mb-4;
+}
